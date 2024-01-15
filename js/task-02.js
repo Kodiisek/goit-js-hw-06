@@ -3,7 +3,7 @@ const ingredients = [
   'Potatoes',
   'Mushrooms',
   'Garlic',
-  'Tomatoes',
+  'Tomatos',
   'Herbs',
   'Condiments',
 ];
