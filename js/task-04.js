@@ -9,13 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
     counterValueSpan.textContent = counterValue;
   };
 
-  // Dodaj event listener dla przycisku dekrementacji
   decrementButton.addEventListener('click', () => {
     counterValue -= 1;
     updateNum();
   });
 
-  // Dodaj event listener dla przycisku inkrementacji
   incrementButton.addEventListener('click', () => {
     counterValue += 1;
     updateNum();
