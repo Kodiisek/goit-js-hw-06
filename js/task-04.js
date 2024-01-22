@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+
   const counterValueSpan = document.getElementById('value');
   const decrementButton = document.querySelector('[data-action="decrement"]');
   const incrementButton = document.querySelector('[data-action="increment"]');
@@ -18,4 +18,4 @@ document.addEventListener('DOMContentLoaded', () => {
     counterValue += 1;
     updateNum();
   });
-});
+
